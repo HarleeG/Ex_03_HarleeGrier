@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+img {
+    max-width: 100%;
+}
+body {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: rgb(141,113,161);
+    background: linear-gradient(150deg, rgba(141,113,161,1) 0%, rgba(252,163,211,1) 50%, rgba(127,203,255,1) 100%);
+}
+.wrap {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    background-color: lightgrey;
+    min-width: 70px;
+    min-height: 70px;
+    width: 5vw;
+    height: 4vw;
+    margin: 1vw;
+    padding: 2px;
+    border-radius: 4px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* yellow Hex code #FFFF00 */
+    /* red Hex code #FF0000 */
+    /* blue Hex code #0000FF */
+    /* green Hex code #008000 */
+    /* black Hex code #000000 */
+}
+.box h2 {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+}
+/* the box that holds the character */
+.box2 {
+    background-image: url("images/bkgImg.png");
+    min-width: 300px;
+    min-height: 300px;
+    width: 75%;
+    height: 75%;
+    margin: 1vw;
+    padding: 25px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+}
+#mouse {
+    color: black;
+    font-size: 5em;
+    margin: 0;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
